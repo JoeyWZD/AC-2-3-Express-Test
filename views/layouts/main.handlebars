@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AC TEST 1</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .nav {
+    width: l00%;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .nav-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  span {
+    margin: 15px 10px 0 0;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #BEBEBE;
+    border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .s-home {
+    margin-right: auto;
+  }
+</style>
+
+
+<body>
+  <nav class="nav">
+    <div class="nav-container">
+
+      <span class="s-home"><a href="/" class="a-home">回到首頁</a></span>
+      <span class="s-about"><a href="/about" class="a-about">About</a></span>
+      <span class="s-profolio"><a href="/profolio" class="a-profolio">Profolio</a></span>
+      <span class="s-contact"><a href="/contact" class="a-contact">Contact</a></span>
+
+    </div>
+  </nav>
+
+  <section class="container">
+
+    {{{body}}}
+
+  </section>
+
+
+</body>
+
+</html>
