@@ -25,7 +25,7 @@ npm run start
 
 - success , you will see this message
 ```
-the server is running to http://localhost.3000
+the server is running to http://localhost:3000
 ```
 
 - Enter URL to http://localhost:3000
