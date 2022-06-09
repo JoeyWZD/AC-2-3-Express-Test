@@ -12,18 +12,29 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 
+app.get('/:page', (req, res) => {
 
-app.get('/about', (req, res) => {
-  res.render('about')
+  const pages = ['about', 'profolio', 'contact']
+
+  if (pages.includes(req.params.page)) {
+    res.render(req.params.page)
+  } else {
+    res.render('index')
+  }
+
 })
 
-app.get('/profolio', (req, res) => {
-  res.render('profolio')
-})
+// app.get('/about', (req, res) => {
+//   res.render('about')
+// })
 
-app.get('/contact', (req, res) => {
-  res.render('contact')
-})
+// app.get('/profolio', (req, res) => {
+//   res.render('profolio')
+// })
+
+// app.get('/contact', (req, res) => {
+//   res.render('contact')
+// })
 
 
 

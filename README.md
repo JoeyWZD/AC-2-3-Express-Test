@@ -28,7 +28,7 @@ npm run start
 the server is running to http://localhost.3000
 ```
 
-- Enter URL to http://localhost.3000
+- Enter URL to http://localhost:3000
 
 ## Tools
 - [Visual Studio Code](https://code.visualstudio.com/)
